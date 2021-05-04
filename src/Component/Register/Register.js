@@ -18,7 +18,9 @@ const Register = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-6">
                         <div className="logoimg">
-                            <img className="logo" src={logo} alt="logo"/>
+                            <Link to="/">
+                                <img className="logo" src={logo} alt="logo"/>
+                            </Link>
                         </div>
                         <div className="registerForm">
                             <h3>Register as Volunteer</h3>
