@@ -6,22 +6,22 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Component/Home/Home';
-import Header from './Component/Header/Header';
-import Banner from './Component/Header/Header';
-import Content from './Component/Content/Content';
+import Register from './Component/Register/Register';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-          <Route path="/">
-            <Header />
-            <Banner />
-            <Content />
-          </Route>
+    <>
+      <Router>
+        <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/register">
+              <Register />
+            </Route>
         </Switch>
-
-    </Router>
+      </Router>
+    </>
   );
 }
 

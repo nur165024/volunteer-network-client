@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../src/images/logo.png';
 import './Header.css'
 
@@ -19,22 +20,22 @@ const Header = () => {
                             <div className="collapse navbar-collapse" id="navbarContent">
                                 <ul className="navbar-nav ml-auto" id="menuList">
                                     <li className="nav-item active">
-                                        <a className="nav-link" href="#">Home</a>
+                                        <Link className="nav-link" to="/">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Donation</a>
+                                        <Link className="nav-link" to="/donation">Donation</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Event</a>
+                                        <Link className="nav-link" to="/event">Event</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Blog</a>
+                                        <Link className="nav-link" to="/blog">Blog</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="btn btn-primary" href="#">Register</a>
+                                        <Link className="nav-link btn btn-primary" to="/register">Register</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="btn btn-dark" href="#">Admin</a>
+                                        <Link className="nav-link btn btn-dark" to="/admin">Admin</Link>
                                     </li>
                                 </ul>
                             </div>
