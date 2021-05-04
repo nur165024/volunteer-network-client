@@ -1,0 +1,21 @@
+#userEventList{
+    position: relative;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+#userEventList .media img{
+    width: 250px;
+    height: auto;
+}
+#userEventList .media .media-body h5{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#userEventList .media .media-body button{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}

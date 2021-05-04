@@ -8,6 +8,7 @@ import {
 import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
 import Register from './Component/Register/Register';
+import UserDashboard from './Component/UserDashboard/UserDashboard';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login />
+            </Route>
+            <Route path="/user-dashboard">
+              <UserDashboard />
             </Route>
         </Switch>
       </Router>
