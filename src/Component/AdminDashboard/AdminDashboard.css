@@ -1,0 +1,17 @@
+.active{
+    color: #1E90FF !important;
+}
+.adminlogoimg{
+    margin-bottom: 20px;
+}
+#userLeftMenu li{
+    display: flex;
+}
+#userLeftMenu li .nav-link{
+    color: #000;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}

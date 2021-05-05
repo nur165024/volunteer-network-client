@@ -35,7 +35,7 @@ const Header = () => {
                                         <Link className="nav-link btn btn-primary" to="/register">Register</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link btn btn-dark" to="/admin">Admin</Link>
+                                        <Link className="nav-link btn btn-dark" to="/admin-dashboard-register-list">Admin</Link>
                                     </li>
                                 </ul>
                             </div>

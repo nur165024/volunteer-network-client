@@ -5,6 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import AddEvent from './Component/AddEvent/AddEvent';
+import AdminDashboard from './Component/AdminDashboard/AdminDashboard';
 import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
 import Register from './Component/Register/Register';
@@ -26,6 +28,12 @@ function App() {
             </Route>
             <Route path="/user-dashboard">
               <UserDashboard />
+            </Route>
+            <Route path="/admin-dashboard-register-list">
+              <AdminDashboard />
+            </Route>
+            <Route path="/add-event">
+              <AddEvent />
             </Route>
         </Switch>
       </Router>
